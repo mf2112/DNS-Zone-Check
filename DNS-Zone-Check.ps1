@@ -11,8 +11,8 @@
 # If the reverse DNS zone exists it will be in Green.
 
 # Set some variables up
-$dnsServer = "dc1vsdc101a.lsi.local"
-$dnsDomainName = "lsi.local"
+$dnsServer = "dc1.domain.local"
+$dnsDomainName = "domain.local"
 $staledate = (Get-Date).AddDays(-90)
 $ProgressCounter = 0
 
